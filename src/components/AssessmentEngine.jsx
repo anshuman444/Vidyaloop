@@ -44,7 +44,7 @@ const AssessmentEngine = ({ onComplete }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-slate-900 text-white overflow-hidden flex flex-col">
+    <div className="relative min-h-screen bg-slate-900 text-white overflow-y-auto flex flex-col">
       {/* Top Bar */}
       <div className="p-6 flex items-center justify-between z-20">
         <div className="flex items-center gap-4">

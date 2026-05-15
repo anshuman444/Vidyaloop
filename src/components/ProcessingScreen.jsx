@@ -21,7 +21,7 @@ const ProcessingScreen = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 bg-slate-900 flex flex-col items-center justify-center p-8 text-white">
+    <div className="relative min-h-screen bg-slate-900 flex flex-col items-center justify-center p-8 text-white overflow-hidden">
       <div className="relative mb-12">
         <motion.div 
           animate={{ rotate: 360 }}
